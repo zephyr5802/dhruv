@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dhruv's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5602057b7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 id="T1"></h1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Dhruv.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#T1">Home</a></li>
+                    <li><a href="#T2">About</a></li>
+                    <li><a href="#T3">Services</a></li>
+                    <li><a href="#T4">My Work</a></li>
+                    <li><a href="#T5">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software developer</p>
+                <h1>Hi, I'm <span>Dhruv Gundecha</span><br> from Pune</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------about---------->
+    <h1 id="T2"></h1>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Dhruv - Copy.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hey I am Dhruv Gundecha Singh, an undergraduate student at VIT Vellore. I am a passionate front-end developer and coding enthusiast. I love taking part in live competitive coding contests and have participated in more than 100 coding contests, solving over 250 questions in C++. I am also comfortable with other coding languages, including C, Python, Java, and JavaScript.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Development</span><br>Creating/Debugging softwares</li>
+                            <li><span>Web Development</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Browser Extensions Developer</span><br>Designing and deploying browser extensions (Chrome Store)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>SDE Intern</span><br>Worked as a frontend developer</li>
+                            <li><span>Google Code Jam</span><br>#2512 in the internation Google Code Jam 2023 coding round</li>
+                            <!-- <li><span>App Development</span><br>Designing web/app interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current (2021-2025)</span><br>Bachelor's Degree @ Vellore Institute of Technology , Vellore</li>
+                            <li><span>Higher Secondary Education</span><br>CBSE Board</li>
+                            <!-- <li><span>App Development</span><br>Designing web/app interfaces</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services---------------->
+    <h1 id="T3"></h1>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Development</h2>
+                    <p>Creating and deploying software for small/medium scale businesses and startups
+                    </p>
+                    <a href="#T5">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front end Development</h2>
+                    <p>Designing user-friendly and responsive interfaces for digital platforms, such as websites for desktop or mobile interfaces.
+                    </p>
+                    <a href="#T5">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Designing and turning complex ideas into intuitive, visually appealing interfaces.
+                    </p>
+                    <a href="#T5">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio-------------->
+    <h1 id="T4"></h1>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/sort1.png" alt="">
+                    <div class="layer">
+                        <h3>Sorting Visualizer</h3>
+                        <p>
+                            <!-- < Java Script | HTML | CSS ><br> -->
+                            Interactive buttons for userfriendly interface
+                            audio and dynamic visualizations using Java-script  
+                        </p>
+                        <a href="https://abhay-59.github.io/try_sort/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Weather App.png" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>
+                            A responsive Website developed using java script and React.Js
+                            Click the icon below to try 
+                        </p>
+                        <a href="https://github.com/zephyr5802/weatherapp"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Chrome(1).png" alt="">
+                    <div class="layer">
+                        <h3>Google Chrome browser extensions</h3>
+                        <p>
+                          Developed some basic web extensions you can add to your chrome web browser<br>
+
+                          Github :  
+                        </p>
+                        <a href="https://github.com/zephyr5802/extension_addblock"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/zephyr5802?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------contact--------------->
+    <h1 id="T5"></h1>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>270714d1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 86685 34932</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/dhruv_gundecha26/profilecard/?igsh=MTRqZ2ZtOG9zMXpmeQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dhruv-gundecha-014b77261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="https://drive.google.com/file/d/13SfB2ICW9b7hr75C3iI_hTMbJfWyqBLW/view?usp=sharing" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------footer----------->
+    <div id="footer">
+        <div class="container">
+            <p>All rights reserved.</p>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="script.js"></script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwbBeYgVGAnNluBOSWiRo2PBX-jzRppOlREH5NDGZ9Fx3I-lNcvgDqZ75lccOR_5DUvLg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    // Check if the form element is correctly selected
+    console.log(form);
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        console.log('Form submitted'); // Debugging statement
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            console.log('Success:', response); // Debugging statement
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => {
+            console.error('Error!', error.message);
+            msg.innerHTML = "Failed to send message"; // Informing user about the error
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 5000);
+        });
+    });
+</script>
+
+</body>
+</html>
